@@ -22,3 +22,8 @@ https://www.kaggle.com/datasets/henryshan/apple-stock-price/data?select=AAPL.csv
 Для установки зависимостей внутри проекта: pip install -r requirements.txt
 
 // Может пригодиться poetry env use .myenv/bin/python3.12
+
+или через poetry 
+
+poetry install                  
+poetry env use .venv/bin/python3.12

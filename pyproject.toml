@@ -1,3 +1,23 @@
 [tool.pyright]
 venvPath = "/Users/mikelane/Library/Caches/pypoetry/virtualenvs"
 venv = "reddit-get-40JF5hkq-py3.11"
+
+[tool.poetry]
+name = "pyproject-toml"
+version = "0.1.0"
+description = ""
+authors = ["emildenikaev"]
+readme = "README.md"
+packages = [{include = "pyproject"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = ">=1.5.1"
+numpy = ">=1.10.4"
+pandas = ">=0.17.1"
+seaborn = ">=0.7.0"
+scikit-learn = "*" 
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
