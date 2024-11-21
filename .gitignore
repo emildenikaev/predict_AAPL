@@ -8,6 +8,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 venv/
+myenv/
 .venv/
 env/
 build/
@@ -61,6 +62,7 @@ target/
 
 # DotEnv configuration
 .env
+.myenv
 
 # Database
 *.db
