@@ -4,3 +4,6 @@ pandas>=0.17.1
 seaborn>=0.7.0
 scikit-learn
 statsmodels
+optuna
+tensorflow
+lime
